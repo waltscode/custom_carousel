@@ -5,15 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="./assets/js/styles.js" defer></script>
     <title>Document</title>
 </head>
 
 <body>
     <section aria-label="New Photos">
-        <div class="carousel">
-            <button class="carousel-button prev">&#10498;</button>
-            <button class="carousel-button next">&#10499;</button>
-            <ul>
+        <div class="carousel" data-carousel>
+            <button class="carousel-button prev" data-carousel-button>&#10498;</button>
+            <button class="carousel-button next" data-carousel-button>&#10499;</button>
+            <ul data-slides>
                 <li class="slide" data-active>
                     <img src="./assets/images/20221129_132141.jpg" alt="image 1">
 
